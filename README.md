@@ -74,3 +74,18 @@ All Computer Organization and Architecture Software Laboratory (PCCCS493) assign
 | MOD-3 Counter | [link](DAY3/mod3_count.vhd) |
 | MOD-4 Counter | [link](DAY3/mod3_count.vhd) |
 | 3bit UP DOWN Counter | [link](DAY3/3updown_count.vhd) |
+
+## DAY 4
+| Name | Code | 
+| -- | -- |
+| Carry Propagate Adder | [link](DAY4/cpa.vhd) |
+| Ripple Carry Adder | [link](DAY4/rca.vhd) |
+| Carry-Look-Ahead Adder | [link](DAY4/cla.vhd) |
+| BCD Adder | [link](DAY4/bcd_adder.vhd) |
+| Adder-Subtractor Composite Unit | [link](DAY4/addsub_unit.vhd) |
+| Binary Incrementer Unit | [link](DAY4/bin_inc.vhd) |
+| Binary Incrementer Unit | [link](DAY4/bin_dec.vhd) |
+| Arithmetic Unit | [link](DAY4/au.vhd) |
+| Logical Unit | [link](DAY4/lu.vhd) |
+| Shifter Unit | [link](DAY4/su.vhd) |
+| Arithmetic Logical Unit | [link](DAY4/alu.vhd) |

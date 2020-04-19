@@ -1,0 +1,48 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
+
+ENTITY nrd IS
+    PORT (
+        q : IN std_logic_vector(4 DOWNTO 1);
+        m : IN std_logic_vector(4 DOWNTO 1);
+        r : OUT std_logic_vector(4 DOWNTO 1);
+        qo : OUT std_logic_vector(4 DOWNTO 1));
+END nrd;
+
+ARCHITECTURE arc OF nrd IS
+BEGIN
+    PROCESS (q, m)
+        VARIABLE a : std_logic_vector(4 DOWNTO 1);
+        VARIABLE qv : std_logic_vector(4 DOWNTO 1);
+        VARIABLE mv : std_logic_vector(4 DOWNTO 1);
+    BEGIN
+        qv := q;
+        mv := m;
+        a := "0000";
+
+        FOR i IN 4 DOWNTO 1 LOOP
+            IF (a(4) = '0') THEN
+                a(4 DOWNTO 2) := a(3 DOWNTO 1);
+                a(1) := qv(4);
+                qv(4 DOWNTO 2) := qv(3 DOWNTO 1);
+                a(4 DOWNTO 1) := a(4 DOWNTO 1) + (NOT mv(4 DOWNTO 1)) + 1;
+            ELSIF (a(4) = '1') THEN
+                a(4 DOWNTO 2) := a(3 DOWNTO 1);
+                a(1) := qv(4);
+                qv(4 DOWNTO 2) := qv(3 DOWNTO 1);
+                a(4 DOWNTO 1) := a(4 DOWNTO 1) + mv(4 DOWNTO 1);
+            END IF;
+            IF (a(4) = '0') THEN
+                qv(1) := '1';
+            ELSIF (a(4) = '1') THEN
+                qv(1) := '0';
+            END IF;
+        END LOOP;
+        IF (a(4) = '1') THEN
+            a(4 DOWNTO 1) := a(4 DOWNTO 1) + mv(4 DOWNTO 1);
+        END IF;
+        qo <= qv;
+        r <= a;
+    END PROCESS;
+END arc;

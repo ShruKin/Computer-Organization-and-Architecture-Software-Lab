@@ -89,3 +89,11 @@ All Computer Organization and Architecture Software Laboratory (PCCCS493) assign
 | Logical Unit | [link](DAY4/lu.vhd) |
 | Shifter Unit | [link](DAY4/su.vhd) |
 | Arithmetic Logical Unit | [link](DAY4/alu.vhd) |
+
+## DAY 5
+| Name | Code | 
+| -- | -- |
+| Booth's Multiplication | [link](DAY5/bth.vhd) |
+| Non-Restoring Division | [link](DAY5/nrd.vhd) |
+| Restoring Division | [link](DAY5/rd.vhd) |
+| Restoring Division | [link](DAY5/ram.vhd) |

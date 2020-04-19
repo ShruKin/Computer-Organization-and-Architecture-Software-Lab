@@ -56,21 +56,21 @@ All Computer Organization and Architecture Software Laboratory (PCCCS493) assign
 ## DAY 3
 | Name | Code | 
 | -- | -- |
-| SR Flip FLop | [link](DAY3\sr_ff.vhd) |
-| JK Flip FLop | [link](DAY3\sr_ff.vhd) |
-| D Flip FLop | [link](DAY3\d_ff.vhd) |
-| T Flip FLop | [link](DAY3\t_ff.vhd) |
-| SISO Shift Regiter | [link](DAY3\siso_reg.vhd) |
-| SIPO Shift Regiter | [link](DAY3\sipo_reg.vhd) |
-| PISO Shift Regiter | [link](DAY3\piso_reg.vhd) |
-| PIPO Shift Regiter | [link](DAY3\pipo_reg.vhd) |
-| 2bit UP Counter | [link](DAY3\2up_count.vhd) |
-| 3bit UP Counter | [link](DAY3\3up_count.vhd) |
-| 4bit UP Counter | [link](DAY3\4up_count.vhd) |
-| 2bit DOWN Counter | [link](DAY3\2down_count.vhd) |
-| 3bit DOWN Counter | [link](DAY3\3down_count.vhd) |
-| 4bit DOWN Counter | [link](DAY3\4down_count.vhd) |
-| MOD-2 Counter | [link](DAY3\mod2_count.vhd) |
-| MOD-3 Counter | [link](DAY3\mod3_count.vhd) |
-| MOD-4 Counter | [link](DAY3\mod3_count.vhd) |
-| 3bit UP DOWN Counter | [link](DAY3\3updown_count.vhd) |
+| SR Flip FLop | [link](DAY3/sr_ff.vhd) |
+| JK Flip FLop | [link](DAY3/sr_ff.vhd) |
+| D Flip FLop | [link](DAY3/d_ff.vhd) |
+| T Flip FLop | [link](DAY3/t_ff.vhd) |
+| SISO Shift Regiter | [link](DAY3/siso_reg.vhd) |
+| SIPO Shift Regiter | [link](DAY3/sipo_reg.vhd) |
+| PISO Shift Regiter | [link](DAY3/piso_reg.vhd) |
+| PIPO Shift Regiter | [link](DAY3/pipo_reg.vhd) |
+| 2bit UP Counter | [link](DAY3/2up_count.vhd) |
+| 3bit UP Counter | [link](DAY3/3up_count.vhd) |
+| 4bit UP Counter | [link](DAY3/4up_count.vhd) |
+| 2bit DOWN Counter | [link](DAY3/2down_count.vhd) |
+| 3bit DOWN Counter | [link](DAY3/3down_count.vhd) |
+| 4bit DOWN Counter | [link](DAY3/4down_count.vhd) |
+| MOD-2 Counter | [link](DAY3/mod2_count.vhd) |
+| MOD-3 Counter | [link](DAY3/mod3_count.vhd) |
+| MOD-4 Counter | [link](DAY3/mod3_count.vhd) |
+| 3bit UP DOWN Counter | [link](DAY3/3updown_count.vhd) |

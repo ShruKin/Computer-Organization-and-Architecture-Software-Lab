@@ -18,6 +18,7 @@ All Computer Organization and Architecture Software Laboratory (PCCCS493) assign
 | Half Adder | [link](DAY2/half_adder.vhd) | 
 | Full Adder | [link](DAY2/full_adder.vhd) | 
 | Half Subtractor | [link](DAY2/half_subtractor.vhd) | 
+| Full Subtractor | [link](DAY2/full_subtractor.vhd) | 
 | 2:1 MUX | [link](DAY2/2_1_MUX.vhd) | 
 | 4:1 MUX | [link](DAY2/4_1_MUX.vhd) | 
 | 8:1 MUX | [link](DAY2/8_1_MUX.vhd) | 
@@ -33,3 +34,11 @@ All Computer Organization and Architecture Software Laboratory (PCCCS493) assign
 | 4x2 Encoder | [link](DAY2/4_2_Encoder.vhd) | 
 | 8x3 Encoder | [link](DAY2/8_3_Encoder.vhd) | 
 | 2x1 Encoder | [link](DAY2/16_4_Encoder.vhd) | 
+| 2bit Comparator | [link](DAY2/2bit_com.vhd) | 
+| 3bit Comparator | [link](DAY2/3bit_com.vhd) | 
+| 4bit Comparator | [link](DAY2/4bit_com.vhd) | 
+| 8bit Comparator | [link](DAY2/8bit_com.vhd) | 
+| 4bit Parity Checker | [link](DAY2/par_check.vhd) | 
+| 3bit Parity Generator | [link](DAY2/par_gen.vhd) | 
+| 4x2 Priority Encoder | [link](DAY2/4_2_pri_encoder.vhd) | 
+| 4x2 Priority Encoder | [link](DAY2/8_3_pri_encoder.vhd) | 

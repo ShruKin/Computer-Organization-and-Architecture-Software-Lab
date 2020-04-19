@@ -42,3 +42,13 @@ All Computer Organization and Architecture Software Laboratory (PCCCS493) assign
 | 3bit Parity Generator | [link](DAY2/par_gen.vhd) | 
 | 4x2 Priority Encoder | [link](DAY2/4_2_pri_encoder.vhd) | 
 | 4x2 Priority Encoder | [link](DAY2/8_3_pri_encoder.vhd) | 
+| Binary to Grey Convertor | [link](DAY2/bin2grey.vhd) | 
+| Binary to Excess-3 Convertor | [link](DAY2/bin2xs3.vhd) | 
+| Binary to BCD Convertor | [link](DAY2/bin2bcd.vhd) | 
+| BCD to Excess-3 Convertor | [link](DAY2/bcd2xs3.vhd) | 
+| BCD to Grey Convertor | [link](DAY2/bcd2grey.vhd) | 
+| BCD to Binary Convertor | [link](DAY2/bcd2bin.vhd) | 
+| Grey to BCD Convertor | [link](DAY2/grey2bcd.vhd) | 
+| Grey to Binary Convertor | [link](DAY2/grey2bin.vhd) | 
+| Excess-3 to BCD Convertor | [link](DAY2/xs32bcd.vhd) | 
+| Excess-3 to Binary Convertor | [link](DAY2/xs32bin.vhd) | 
